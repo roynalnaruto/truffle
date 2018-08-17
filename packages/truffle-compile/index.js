@@ -83,6 +83,7 @@ var compile = function(sources, options, callback) {
           ],
           "*": [
             "abi",
+            "metadata",
             "evm.bytecode.object",
             "evm.bytecode.sourceMap",
             "evm.deployedBytecode.object",
@@ -161,6 +162,7 @@ var compile = function(sources, options, callback) {
         legacyAST: standardOutput.sources[source_path].legacyAST,
         ast: standardOutput.sources[source_path].ast,
         abi: contract.abi,
+        rawData: contract,
         bytecode: "0x" + contract.evm.bytecode.object,
         deployedBytecode: "0x" + contract.evm.deployedBytecode.object,
         unlinked_binary: "0x" + contract.evm.bytecode.object, // deprecated

@@ -1,7 +1,7 @@
 {
-  "name": "truffle-compile",
+  "name": "@digix/truffle-compile",
   "version": "3.0.13",
-  "description": "Compiler helper and artifact manager",
+  "description": "Compiler helper and artifact manager | add metadata",
   "main": "index.js",
   "dependencies": {
     "async": "2.6.1",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-compile.git"
+    "url": "git+https://github.com/roynalnaruto/truffle.git"
   },
   "keywords": [
     "ethereum",
@@ -34,9 +34,9 @@
   "author": "Tim Coulter <tim.coulter@consensys.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-compile/issues"
+    "url": "https://github.com/roynalnaruto/truffle/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-compile#readme",
+  "homepage": "https://github.com/roynalnaruto/truffle/tree/develop/packages/truffle-compile",
   "publishConfig": {
     "access": "public"
   }
